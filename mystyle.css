@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:300');
+
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+/*font-family: 'Kaushan Script', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*font-family: 'Carter One', cursive;*/
+/*font-family: 'Fugaz One', cursive;*/
+/*font-family: 'Permanent Marker', cursive;*/
+
+
+
+/*--------------NAVIGATION-------------- */
+
+
+
+.logonav {
+      display: flex;
+    justify-content:space-between;
+    width:750px;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+    /*z-index:4;*/
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    position: fixed;
+     background-color: #F35B04;
+    z-index: 3;
+   
+    
+}
+
+nav ul{
+        display: flex;
+        justify-content: space-around;
+    margin: 0px;
+    padding: 5px;
+     /*width: 75%;*/
+    
+    
+}
+
+
+ nav li{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    list-style: none;
+   padding: 10px;
+    /*width: inherit;*/
+    
+
+}
+nav a{
+    text-decoration: none;
+    text-shadow: 3px 2px #212121;
+     color: #ffffff;
+    margin: 30px;
+}
+
+/*-------------------------------------*/
+
+
+/*---------------BANNERS-----------------*/
+
+.banner1 {
+    display: flex;
+    top: -300px;
+    background-image: url(images/greensea.jpg);
+    position: relative;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 800px;
+    
+      
+}
+
+.banner2 {
+    display: flex;
+    background-image: url(images/beach3.jpg);
+    position: relative;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 800px;
+    top: -300px;
+   
+    
+}
+
+
+
+.banner3 {
+    display: flex;
+    background-image: url(images/limelight.jpg);
+    position: relative;
+    z-index: -10;
+    top:-300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 800px;
+}
+.banner4 {
+display: flex;
+    background-image: url(images/hotel1.jpg);
+    position: relative;
+    z-index: -10;
+    top:-300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 900px;
+
+}
+
+.banner5 {
+display: flex;
+    background-image: url(images/dock.jpeg);
+    position: relative;
+    z-index: -10;
+    top:-300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 800px;
+
+}
+
+.bigdiv {margin: 200px;
+        margin-top: -100px;    
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 120px;
+    text-shadow: 3px 2px #311144;
+    margin: 30px;
+    height: 60px;
+    width: 470px;
+    position: absolute;
+    left: 40px;
+    bottom: 320px;
+    z-index: 3;
+    color: #ffffff;
+}
+
+
+
+
+/*-------------HOME-------Section----------------------------*/
+
+
+section{
+    display: flex;
+    /*flex-direction: column;*/
+}
+
+.feature img {
+    width: 100%;
+    
+}
+
+.feature {display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 40px;
+            width:30%;
+            flex-direction: column;
+            /*margin-left: 20px;*/
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+  
+    
+}
+
+h2 {
+    font-family: 'Carter One', cursive;
+    font-size: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F35B04;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 10px;
+}
+
+/*------------------About page-------------------------    */
+
+.about1{
+    display: flex;
+    margin: 40px;
+}
+
+.about1 p{
+   padding: 30px;
+     /*width: 100%;*/
+}
+
+.about2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:40px;
+    Margin-top:100px;
+}
+
+.about2 p {
+    padding: 30px;
+}
+
+
+/*----------------Things 2 do-------------------*/
+
+.volcano {
+    display:flex;
+    justify-content: center;
+}
+
+.garden {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
